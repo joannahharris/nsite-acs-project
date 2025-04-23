@@ -33,7 +33,7 @@ The analysis is based on detailed commuting data from the American Community Sur
   - 50 = Bicycle
 
 ## Methodology
-This project employs a maximum likelihood estimation (MLE) approach to determine statistically significant patterns in commuting times. The MLE method was chosen for its robustness in parameter estimation, which allows for the precise modeling of travel time distributions.
+This project employs a maximum likelihood estimation (MLE) approach to determine statistically significant patterns in commuting times. The MLE method was chosen for its robustness in parameter estimation, which allows for statistical modeling of travel time distributions.
 
 ## Preliminary Results
 While the complete analysis is best experienced by running the code, key initial findings suggest interesting disparities in commuting times based on metropolitan status and mode of transportation. These results hint at underlying socio-economic patterns that warrant further investigation.
@@ -41,6 +41,5 @@ While the complete analysis is best experienced by running the code, key initial
 ## How to Run This Project
 To replicate the analysis:
 1. **Prerequisites:** Ensure you have the required statistical libraries installed (e.g., NumPy, SciPy, Pandas, Matplotlib). As well as audio-plot-lib.
-2. **Installation:** Clone the repository and install dependencies using:
-   ```bash
-   pip install -r requirements.txt
+2. **Installation:** Clone the repository and install dependencies (see enviroment.yml).
+3. **Download the data from IPUMS** We used a 3% sample of ACS data with key attributes () from 2021, 2022, and 2023
