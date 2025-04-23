@@ -42,4 +42,5 @@ While the complete analysis is best experienced by running the code, key initial
 To replicate the analysis:
 1. **Prerequisites:** Ensure you have the required statistical libraries installed (e.g., NumPy, SciPy, Pandas, Matplotlib). As well as audio-plot-lib.
 2. **Installation:** Clone the repository and install dependencies (see enviroment.yml).
-3. **Download the data from IPUMS** We used a 3% sample of ACS data with key attributes () from 2021, 2022, and 2023
+3. **Download the data from IPUMS** You will need to make an account with [IPUMS USA Datasets](https://usa.ipums.org/usa/) to download the data. For our examples, we used a 3% sample of ACS data from 2021, 2022, and 2023 with key attributes YEAR, STATEFIP, PUMA, METRO, PWSTATE2, TRANWORK, TRANTIME.
+4. 
