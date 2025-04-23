@@ -1,0 +1,19 @@
+name: practical-stats
+channels:
+  - default
+  - bioconda
+  - conda-forge
+dependencies:
+  - python
+  - jupyter
+  - pandas
+  - matplotlib
+  - scipy
+  - statsmodels
+  - seaborn
+  - scikit-learn
+  - pip
+  - pip:
+      - audio-plot-lib
+      - audioop-lts
+      - ffmpeg 
