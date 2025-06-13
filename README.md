@@ -5,9 +5,11 @@ The following data story will present findings from my analysis of a deceptively
 
 To answer this question, I gathered data from the IPUMS American Community Survey microdata spanning 2021-2023 including non-metropolitan areas and metropolitan areas located in central/principal cities. I then analyzed the dataset using Python with Pandas, Matplotlib, NumPy, and SciPy. The statistical approach employed a log-normal distribution for modeling with maximum likelihood estimation to characterize commute time patterns by calculate measures of central tendency and dispersion.
 
+## Accessibility Considerations
+
 Critically, this project embedded WCAG 2.2 AA accessibility standards throughout the entire workflow. The chosen development environment utilized Visual Studio with high contrast mode and screen reader compatibility, meeting success criteria for 1.4.3 Contrast (Minimum) and 4.1.2 Name, Role, Value. All documentation implemented logical heading structures per 2.4.6 Headings and Labels, included comprehensive alt text for visualizations following 1.1.1 Non-text Content, and semantic markup for mathematical expressions ensuring assistive technology compatibility under 1.3.1 Info and Relationships. Furthermore, I integrated audioplotlib which is an experimental sonification library that converts statistical visualizations into auditory representations, this extending beyond standard 1.2.1 Audio-only and Video-only (Prerecorded) requirements to provide enhanced accessibility for blind and low-vision users.
 
-This project proves that research can be both scientifically rigorous and accessible to all. By combining robust statistical modeling with inclusive design, we not only challenge long-standing assumptions with empirical evidence, we make that evidence usable and meaningful to a broader audience. This is the kind of work I am passionate about.
+This project proves that research can be both scientifically rigorous and accessible to all. By combining robust statistical modeling with inclusive design, we not only challenge long-standing assumptions with empirical evidence, we make that evidence usable and meaningful to a broader audience.
 
 ## Data Sources
 
